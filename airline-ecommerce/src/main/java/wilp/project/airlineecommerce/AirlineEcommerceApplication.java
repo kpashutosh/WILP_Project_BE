@@ -6,10 +6,6 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 
 @SpringBootApplication
 public class AirlineEcommerceApplication extends SpringBootServletInitializer {
-
-//	public static void main(String[] args) {
-//		SpringApplication.run(AirlineEcommerceApplication.class, args);
-//	}
 	
     protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
         return application.sources(AirlineEcommerceApplication.class);
